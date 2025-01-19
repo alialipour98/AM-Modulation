@@ -1,4 +1,4 @@
-# Amplitude Modulation (AM) Report
+# Amplitude Modulation (AM)
 
 ## Overview
 This repository contains a detailed report on **Amplitude Modulation (AM)**, a fundamental technique in communication systems. The report explores the principles, mathematical foundations, and practical implementations of AM, emphasizing digital signal processing aspects like parameter bits, sine/cosine bits, and truncation techniques.
