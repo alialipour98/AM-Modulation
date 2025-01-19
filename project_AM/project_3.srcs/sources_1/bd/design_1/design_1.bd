@@ -1,0 +1,231 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC003154A23C75D6C",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../project_3.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "dds_compiler_0": "",
+      "dds_compiler_1": "",
+      "const_0_2": "",
+      "const_1": "",
+      "AM_Modulation_0": ""
+    },
+    "ports": {
+      "out_0": {
+        "direction": "O",
+        "left": "8",
+        "right": "0"
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "dds_compiler_0": {
+        "vlnv": "xilinx.com:ip:dds_compiler:6.0",
+        "xci_name": "design_1_dds_compiler_0_0",
+        "xci_path": "ip\\design_1_dds_compiler_0_0\\design_1_dds_compiler_0_0.xci",
+        "inst_hier_path": "dds_compiler_0",
+        "parameters": {
+          "Has_Phase_Out": {
+            "value": "false"
+          },
+          "M_DATA_Has_TUSER": {
+            "value": "Not_Required"
+          },
+          "Noise_Shaping": {
+            "value": "None"
+          },
+          "Output_Frequency1": {
+            "value": "0"
+          },
+          "Output_Selection": {
+            "value": "Cosine"
+          },
+          "Output_Width": {
+            "value": "8"
+          },
+          "PINC1": {
+            "value": "00011001"
+          },
+          "Parameter_Entry": {
+            "value": "Hardware_Parameters"
+          },
+          "Phase_Width": {
+            "value": "28"
+          }
+        }
+      },
+      "dds_compiler_1": {
+        "vlnv": "xilinx.com:ip:dds_compiler:6.0",
+        "xci_name": "design_1_dds_compiler_0_1",
+        "xci_path": "ip\\design_1_dds_compiler_0_1\\design_1_dds_compiler_0_1.xci",
+        "inst_hier_path": "dds_compiler_1",
+        "parameters": {
+          "Has_Phase_Out": {
+            "value": "false"
+          },
+          "M_DATA_Has_TUSER": {
+            "value": "Not_Required"
+          },
+          "Noise_Shaping": {
+            "value": "None"
+          },
+          "Output_Frequency1": {
+            "value": "0"
+          },
+          "Output_Selection": {
+            "value": "Sine"
+          },
+          "Output_Width": {
+            "value": "8"
+          },
+          "PINC1": {
+            "value": "00011100001011100011"
+          },
+          "Parameter_Entry": {
+            "value": "Hardware_Parameters"
+          },
+          "Phase_Width": {
+            "value": "28"
+          }
+        }
+      },
+      "const_0_2": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_0",
+        "xci_path": "ip\\design_1_xlconstant_0_0\\design_1_xlconstant_0_0.xci",
+        "inst_hier_path": "const_0_2",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "128"
+          },
+          "CONST_WIDTH": {
+            "value": "9"
+          }
+        }
+      },
+      "const_1": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_const_0_2_0",
+        "xci_path": "ip\\design_1_const_0_2_0\\design_1_const_0_2_0.xci",
+        "inst_hier_path": "const_1",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "51"
+          },
+          "CONST_WIDTH": {
+            "value": "9"
+          }
+        }
+      },
+      "AM_Modulation_0": {
+        "vlnv": "xilinx.com:module_ref:AM_Modulation:1.0",
+        "xci_name": "design_1_AM_Modulation_0_0",
+        "xci_path": "ip\\design_1_AM_Modulation_0_0\\design_1_AM_Modulation_0_0.xci",
+        "inst_hier_path": "AM_Modulation_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "AM_Modulation",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "const_1": {
+            "direction": "I",
+            "left": "8",
+            "right": "0"
+          },
+          "const_2": {
+            "direction": "I",
+            "left": "8",
+            "right": "0"
+          },
+          "cosine_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "sine_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "out_0": {
+            "direction": "O",
+            "left": "8",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "AM_Modulation_0_out_0": {
+        "ports": [
+          "AM_Modulation_0/out_0",
+          "out_0"
+        ]
+      },
+      "aclk_0_1": {
+        "ports": [
+          "clk",
+          "dds_compiler_0/aclk",
+          "dds_compiler_1/aclk"
+        ]
+      },
+      "const_0_2_dout": {
+        "ports": [
+          "const_0_2/dout",
+          "AM_Modulation_0/const_2"
+        ]
+      },
+      "const_1_dout": {
+        "ports": [
+          "const_1/dout",
+          "AM_Modulation_0/const_1"
+        ]
+      },
+      "dds_compiler_0_m_axis_data_tdata": {
+        "ports": [
+          "dds_compiler_0/m_axis_data_tdata",
+          "AM_Modulation_0/cosine_in"
+        ]
+      },
+      "dds_compiler_1_m_axis_data_tdata": {
+        "ports": [
+          "dds_compiler_1/m_axis_data_tdata",
+          "AM_Modulation_0/sine_in"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,1737272302,verilog,,C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.srcs/sim_1/new/design_1_wrapper_tb.v,,design_1_wrapper,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/ip/design_1_AM_Modulation_0_0/sim/design_1_AM_Modulation_0_0.v,1737231940,verilog,,C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/sim/design_1.v,,design_1_AM_Modulation_0_0,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/ip/design_1_const_0_2_0/sim/design_1_const_0_2_0.v,1736943230,verilog,,C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/ip/design_1_AM_Modulation_0_0/sim/design_1_AM_Modulation_0_0.v,,design_1_const_0_2_0,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/ip/design_1_dds_compiler_0_0/sim/design_1_dds_compiler_0_0.vhd,1736941845,vhdl,,,,design_1_dds_compiler_0_0,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/ip/design_1_dds_compiler_0_1/sim/design_1_dds_compiler_0_1.vhd,1736941845,vhdl,,,,design_1_dds_compiler_0_1,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v,1736950214,verilog,,C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/ip/design_1_const_0_2_0/sim/design_1_const_0_2_0.v,,design_1_xlconstant_0_0,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/sim/design_1.v,1737231940,verilog,,C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.srcs/sim_1/new/design_1_wrapper_tb.v,1737236241,verilog,,,,design_1_wrapper_tb,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.srcs/sources_1/new/AM_Modulation.v,1737232247,verilog,,C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v,,AM_Modulation,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.srcs/sources_1/new/adder_nbit.v,1736942693,verilog,,C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.srcs/sources_1/new/multiplier_nbit.v,,adder_nbit,,,,,,,,
+C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.srcs/sources_1/new/multiplier_nbit.v,1736942679,verilog,,C:/Users/USER/Documents/Vivado_pro/Session_4/AM Modulation/project/project_3.srcs/sources_1/new/AM_Modulation.v,,multiplier_nbit,,,,,,,,

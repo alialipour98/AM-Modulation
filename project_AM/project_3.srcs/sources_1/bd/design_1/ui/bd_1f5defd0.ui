@@ -1,0 +1,25 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.937931",
+   "Default View_TopLeft":"-337,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace portBus out_0 -pg 1 -lvl 3 -x 590 -y 290 -defaultsOSRD
+preplace inst dds_compiler_0 -pg 1 -lvl 1 -x 160 -y 350 -defaultsOSRD
+preplace inst dds_compiler_1 -pg 1 -lvl 1 -x 160 -y 510 -defaultsOSRD -resize 230 105
+preplace inst const_0_2 -pg 1 -lvl 1 -x 160 -y 210 -defaultsOSRD -resize 167 88
+preplace inst const_1 -pg 1 -lvl 1 -x 160 -y 60 -defaultsOSRD -resize 166 88
+preplace inst AM_Modulation_0 -pg 1 -lvl 2 -x 430 -y 290 -defaultsOSRD -resize 230 548
+preplace netloc AM_Modulation_0_out_0 1 2 1 N 290
+preplace netloc aclk_0_1 1 0 1 20 350n
+preplace netloc const_0_2_dout 1 1 1 NJ 210
+preplace netloc const_1_dout 1 1 1 NJ 60
+preplace netloc dds_compiler_0_m_axis_data_tdata 1 1 1 NJ 360
+preplace netloc dds_compiler_1_m_axis_data_tdata 1 1 1 NJ 520
+levelinfo -pg 1 0 160 430 590
+pagesize -pg 1 -db -bbox -sgen -70 0 710 580
+"
+}
+0
